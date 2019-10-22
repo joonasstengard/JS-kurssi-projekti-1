@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To-do list by Joonas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="ylaosa">
+<h4>Add a new to-do:</h4>
+    <form id="inputit">
+        Action description:<br>
+        <input type="text" id="tekeminen"><h4 id="tekeminenVarotus"></h4>
+		<br>
+        Start time (HH:MM):<br>
+		<input type="number" id="aikaTunnit"><input type="number" id="aikaMinuutit"><h4 id="aikaVarotus"></h4>
+		<br>
+		Duration (HH:MM):<br>
+		<input type="number" id="kestoTunnit"><input type="number" id="kestoMinuutit"><h4 id="kestoVarotus"></h4>
+		<br>
+    </form>  
+	<button id="addNappi" onClick="lisaysFunktio()">Add!</button>
+</div>
+<div id="alaosa">
+	<table id="taulu">
+		<tr>
+			<th>Action</th>
+			<th>Start time</th>
+			<th>Duration</th>
+		</tr>
+		<tr>
+			<th id="actionitTanne"></th>
+			<th id="timetTanne"></th>
+			<th id="durationitTanne"></th>
+		</tr>
+	</table>
+	<div id="deletenapit"></div>
+</div>
+<script src="lisaysFunktio.js"></script>
+</body>
+</html>

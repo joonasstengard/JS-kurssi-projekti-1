@@ -1,0 +1,52 @@
+
+
+#ylaosa{
+	margin-left: 20px;
+}
+
+#kestoVarotus, #aikaVarotus, #tekeminenVarotus{
+	color: #e52424;
+}
+
+#alaosa{
+	margin-top: 60px;
+}
+
+#tekeminen{
+	width: 150px;
+}
+#aikaTunnit, #aikaMinuutit, #kestoTunnit, #kestoMinuutit{
+	width: 50px;
+}
+
+
+button {
+	display: block;
+	margin: 4px;
+}
+
+#addNappi{
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	padding: 5px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+}
+
+#addNappi:hover{
+	background-color: black;
+	color: white;
+}
+
+
+#taulu {
+
+	width: 40%;
+	float: left;
+}
+
+#deletenapit{
+	padding-top: 28px;
+	width: 50%;
+}
